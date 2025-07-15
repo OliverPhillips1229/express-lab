@@ -1,7 +1,7 @@
 
 const express = require('express');
-const morgan = require('morgan'); // for logging requests
 const app = express();
+const PORT = 3000;
 
 app.use(morgan('dev')); // use morgan to log requests
 

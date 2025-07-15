@@ -7,6 +7,7 @@ const PORT = 3000;
 // --- Route 1: Be Polite, Greet the User ---
 app.get('/greetings/:username', (req, res) => {
     const username = req.params.username;
+    // added this for a bit of fun
     const greetings = [
         `Hello there, ${username}!`,
         `What a delight it is to see you once more, ${username}.`,
